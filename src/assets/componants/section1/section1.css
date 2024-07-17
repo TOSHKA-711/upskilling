@@ -1,0 +1,122 @@
+.home {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .home .container .child {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .container .child1 {
+    background-image: url("../imges/Rectangle.png");
+    background-size: cover;
+    background-position: center center;
+    /* width: 65%;/ */
+  
+    position: relative;
+  }
+  .home .container .child1 .title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  .home .container .child1 .centered-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 13rem 0;
+  }
+  .home .container .child1 .centered-element p {
+    text-align: left;
+    width: 50%;
+  }
+  .home .container .child1 .centered-element button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(245, 204, 0);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .home .container .child2 {
+    background-image: url("../imges/MaskGroup.png");
+    background-size: cover;
+    background-position: center center;
+    /* width: 35%; */
+    height: 100%;
+    /* padding: 7rem 0; */
+    position: relative;
+  }
+  .home .container .child2 img {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+  }
+  
+  .home .container .child1 .last-element {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  
+    background-image: url("../imges/MaskGroup.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: #fff;
+  
+    width: 35%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .home .container .child1 .last-element .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 5px;
+  }
+  .home .container .child1 .last-element .social-icons .icon {
+    font-size: 20px;
+    color: #C98A40;
+  }
+  
+
+  @media screen and (max-width:870px) {
+    .home .container .child1 .centered-element {
+      align-items: flex-start;
+      margin-left: 10vw;
+  }
+  }
+  @media screen and (max-width:630px) {
+    .home .container .child1 .centered-element {
+      align-items: flex-start;
+      margin-left: 4vw;
+  }
+  
+  .home .container .child2 img {
+
+    width: 14rem;
+  }
+  }

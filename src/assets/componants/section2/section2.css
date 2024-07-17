@@ -1,0 +1,147 @@
+.about {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../imges/Rectangle.png");
+  width: 65%;
+  color: #fff;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+.about .container .left .title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.about .container .left .text {
+  width: 65%;
+  color: #fff;
+}
+.about .container .left button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(245, 204, 0);
+  color: #fff;
+  cursor: pointer;
+}
+.about .container .right {
+  width: 35%;
+  position: relative;
+}
+.about .container .right img {
+  width: 15rem;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 830px) {
+  .how .container .child2 p {
+    display: none;
+  }
+}
+@media screen and (max-width: 840px) {
+  .how .container .child1 .centered-element h1 {
+    margin-bottom: 20rem;
+    font-size: 3rem !important;
+  }
+  .how .container .child1 .centered-element .recipes img {
+    width: 8rem !important;
+  }
+}
+@media screen and (max-width: 660px) {
+  .how .container .child1 .centered-element .recipes img {
+    width: 6rem !important;
+  }
+  .how .container .child1 .centered-element .recipes {
+    gap: 10px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .how .container .child1 .centered-element .recipes {
+    left: 0;
+    top: 60%;
+    transform: translate(-45%, -50%) !important;
+    -webkit-transform: translate(-45%, -50%) !important;
+    -moz-transform: translate(-45%, -50%) !important;
+    -ms-transform: translate(-45%, -50%) !important;
+    -o-transform: translate(-45%, -50%) !important;
+    flex-wrap: wrap;
+    width: 95vw !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  .how .container .child1 .centered-element h1 {
+    margin-bottom: 18rem;
+    font-size: 2rem !important;
+  }
+  .how .container .child1 .centered-element .recipes img {
+    width: 6rem !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about .container .left {
+    align-items: flex-start !important;
+
+    padding: 2rem 0 2rem 10px !important;
+  }
+  .about .container .left .title {
+    font-size: 45px !important;
+
+}
+}
+@media screen and (max-width: 500px) {
+  .about .container .left .text {
+    width: 65% !important;
+
+    font-size: 13px !important;
+}
+.about .container .right img {
+  width: 12rem !important;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.about .container .left {
+  align-items: flex-start !important;
+  padding: 1rem 0 1rem 10px !important;
+}
+}
+@media screen and (max-width: 410px) {
+  .about .container .left {
+    align-items: flex-start !important;
+    padding: 1rem 0 1rem 10px !important;
+}
+.about .container .right img {
+  width: 10rem !important;
+  transform: translate(-45%, -50%) !important;
+  -webkit-transform: translate(-45%, -50%) !important;
+  -moz-transform: translate(-45%, -50%) !important;
+  -ms-transform: translate(-45%, -50%) !important;
+  -o-transform: translate(-45%, -50%) !important;
+}
+}
